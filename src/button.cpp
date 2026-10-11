@@ -59,8 +59,8 @@ ButtonEvent buttonTick() {
             return BUTTON_LONG_PRESS;
         }
 
-        return BUTTON_NONE;
     }
+    return BUTTON_NONE;
     
 }
 
