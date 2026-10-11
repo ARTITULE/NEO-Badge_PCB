@@ -1,39 +1,51 @@
 
-/*
-// put function declarations here:
-int myFunction(int, int);
-
-void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-}
-
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
-}
-*/
 
 #include <Arduino.h>
 
-#define ROW_0 PC0
-#define COLUMN_0 PD2
+#include "display.h"
+
+#define BUTTON_PIN PD0
+
+void blink();
 
 void setup() {
-    pinMode(ROW_0, OUTPUT);
-    pinMode(COLUMN_0, OUTPUT);
+
+    displayBegin();
+
+    blink();
+
 }
 
 void loop() {
-    digitalWrite(ROW_0, HIGH);
-    digitalWrite(COLUMN_0, LOW);
-    delay(250);
 
-    digitalWrite(ROW_0, LOW);
-    digitalWrite(COLUMN_0, HIGH);
-    delay(250);
+}
+
+void blink() {
+
+    while (1) {
+        static bool frameFlag = false;
+
+        static uint32_t flagTimer = millis();
+        if (millis() - flagTimer >= 1000) {
+            flagTimer = millis();
+            frameFlag = !frameFlag;
+        }
+
+        if (frameFlag) {
+            frameBuffer[0] = 0b11111111;
+        }
+        else {
+            frameBuffer[0] = 0b00000000;
+        }
+        
+        static uint32_t updateTimer = micros();
+        if (micros() - updateTimer >= 500) {
+            updateTimer = micros();
+            displayUpdate();
+        }
+    }
+    
+
+    
+    
 }
