@@ -6,7 +6,7 @@
 > [!NOTE]
 > This devlog is mirrored from [Half Life](https://halflife.hackclub.com) – [open the project](https://halflife.hackclub.com/projects/cmuuu4hn30ajm01sm1zrrgg7w). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> A PCB name card that has a led matrix and a microcontroller to show cool graphics.
+> A PCB name card that has a 8x8 led matrix array and a CH32V003 microcontroller to show cool graphics (Like your name) and cool animations.
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
