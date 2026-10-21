@@ -59,6 +59,6 @@ Started by adding mounting holes for the brooch needle. After that repositioned 
 
 Fourth entry,
 
-Started by better laying out the schematic. After that checked DRC and exported all the necessary PCB files ( aka the GERBER the BOM and the Pick and Place). After that exported the Schematic and a couple of pictures of the PCB. Ended the time lapse by exporting the EasyEDA project files.
+Started by better laying out the schematic. After that checked DRC and exported all the necessary PCB files ( aka the GERBER the BOM and the Pick and Place). After that exported the Schematic and a couple of pictures of the PCB. Ended the time lapse by exporting the EasyEDA project files. That is it!
 
 [Timelapse](https://lookout.hackclub.com/api/media/ae585c28-c834-410b-8f14-93d946d3e051/video.mp4)
