@@ -49,7 +49,7 @@ Started with the LED's. First arranged them in a matrix and made sure that they 
 
 Third entry,
 
-Started by adding mounting holes for the brooch needle. After that repositioned the ch32v003 and started to route the tracks. First the matrix columns and then the matrix rows. Next wired up the power side of the board, the power switch the capacitors and the battery holder. After that made sure that the LED's are centered, fixed the battery holder footprint and looked at jlcpcb capabilities. Added some text and correctly placed the designators. Checked DRC and made the pcb corners curved. Found the needed components locally and added them to the bom. Added some more text and a version label.
+Started by adding mounting holes for the brooch needle. After that repositioned the ch32v003 and started to route the tracks. First the matrix columns and then the matrix rows. Next wired up the power side of the board, the power switch the capacitors and the battery holder. After that made sure that the LED's are centered, fixed the battery holder footprint and looked at jlcpcb capabilities. Added some text and correctly placed the designators. Checked DRC and made the pcb corners curved. Found the needed components locally and added them to the bom. Added some more text and a version label. That is it!
 
 [Timelapse](https://lookout.hackclub.com/api/media/eb23a862-4184-4090-b12b-72e1a93a4cf3/video.mp4)
 
