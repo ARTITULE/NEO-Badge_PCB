@@ -1,6 +1,5 @@
 Item,Qty,Supplier,Cost/item,Total Cost,link
 PCB and Stencil,1,JLCPCB,$3.10,$3.10,https://jlcpcb.com
-Estimated total shipping,1,,,$12.50,
 0603 SMD Led(MOQ 50. MUL 50),100,LCSC,$0.0123,$1.23,https://www.lcsc.com/product-detail/C2290.html?s_z=n_q_C2290&globalKeyword=C2290
 WCH CH32V003F4P6(MOQ 5),5,LCSC,$0.3132,$1.57,https://www.lcsc.com/product-detail/C5187096.html?s_z=n_q_ch32v003
 Battery Holder CR2032(MOQ 5),5,LCSC,$0.0940,$0.47,https://www.lcsc.com/product-detail/C964833.html?s_z=n_q_C964833&globalKeyword=C964833
