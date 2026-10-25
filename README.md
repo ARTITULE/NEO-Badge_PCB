@@ -31,3 +31,17 @@ In the [Reset_Unlock](/Reset_Unlock/) folder you can find the file that needs to
 4. Select the "NEO_Badge_PCB" environment.
 5. Follow the steps written in the [firmware section](#firmware).
 6. Flash the actual firmware. That's it!
+
+## BOM
+
+|Item                          |Qty|Supplier|Cost/item|Total Cost|link                                                                                        |
+|------------------------------|---|--------|---------|----------|--------------------------------------------------------------------------------------------|
+|PCB and Stencil               |1  |JLCPCB  |$3.10    |$3.10     |[JLCPCB](https://jlcpcb.com)                                                                |
+|0603 SMD Led(MOQ 50. MUL 50)  |100|LCSC    |$0.0123  |$1.23     |[LCSC](https://www.lcsc.com/product-detail/C2290.html?s_z=n_q_C2290&globalKeyword=C2290)    |
+|WCH CH32V003F4P6(MOQ 5)       |5  |LCSC    |$0.3132  |$1.57     |[LCSC](https://www.lcsc.com/product-detail/C5187096.html?s_z=n_q_ch32v003)                  |
+|Battery Holder CR2032(MOQ 5)  |5  |LCSC    |$0.0940  |$0.47     |[LCSC](https://www.lcsc.com/product-detail/C964833.html?s_z=n_q_C964833&globalKeyword=C964833)|
+|Push Button(MOQ 20)           |20 |LCSC    |$0.0311  |$0.65     |[LCSC](https://www.lcsc.com/product-detail/C54407262.html?s_z=n_q_C54407262&globalKeyword=C54407262)|
+|Power Switch                  |1  |LCSC    |$0.4788  |$0.4788   |[LCSC](https://www.lcsc.com/product-detail/C115375.html?s_z=n_q_C115375&globalKeyword=C115375)|
+|300Ohm 0402 Resistors(MOQ 100)|100|LCSC    |$0.0019  |$ 0.19    |[LCSC](https://www.lcsc.com/product-detail/C25102.html?s_z=n_q_C25102&globalKeyword=C25102) |
+|Estimated total shipping      |1  |        |         |$20.00    |                                                                                            |
+|Estimated TOTAL               |   |        |         |$27.90    |                                                                                            |
